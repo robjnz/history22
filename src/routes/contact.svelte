@@ -40,33 +40,28 @@
 		</form>
 		<br /><br />
 
-		
-				
-				
-
-		<form name="contact" netlify>
-  <p class=text-gray-700>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <br />
-  <p class=text-gray-700>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <br />
-  <p class="form-row text-gray-700">
-				<label id="contact-form-message-label" for="contact-form-message" class="form-label"
-					>Message</label
-				>
-  <textarea
-					name="message"
-					id="contact-form-message"
-					aria-labelledby="contact-form-message-label"
-					class="form-textarea"
-					rows="2"
-				/>
-  <p class=text-gray-700>
-    <button type="submit">Send</button>
-  </p>
-</form>
+		<div
+			data-aidaform-widget="form-2019-12"
+			data-url="https://robin8.aidaform.com/expert-account-template-contact-form-with-captcha"
+			data-width="100%"
+			data-height="500px"
+			data-do-resize
+		/>
+		<script>
+			(function () {
+				var r,
+					d = document,
+					gt = d.getElementById,
+					cr = d.createElement,
+					tg = d.getElementsByTagName,
+					id = 'aidaform-embed';
+				if (!gt.call(d, id)) {
+					r = cr.call(d, 'script');
+					r.id = id;
+					r.src = 'https://embed.aidaform.com/embed.js';
+					(d.head || tg.call(d, 'head')[0]).appendChild(r);
+				}
+			})();
+		</script>
 	</div>
 </section>
