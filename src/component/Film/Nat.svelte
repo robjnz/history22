@@ -1,7 +1,7 @@
 <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
 	<div class="p-6">
 		<h1 class="text-2xl text-white">
-			How to find a <br />naturalization certificate<br />
+			How to find a <br />Naturalization certificate<br />
 			uk
 		</h1>
 		<br />
