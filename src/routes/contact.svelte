@@ -40,54 +40,33 @@
 		</form>
 		<br /><br />
 
-		<form
-			name="ContactForm"
-			method="POST"
-			data-netlify="true"
-			id="simple-contact-form"
-			class="contact-form"
-		>
-			<p class="form-row text-gray-700">
-				<label id="contact-form-name-label" for="contact-form-name" class="form-label">Name</label>
-				<input
-					type="text"
-					name="name"
-					id="contact-form-name"
-					aria-labelledby="contact-form-name-label"
-					class="form-input"
-				/>
-			</p>
-			<br />
-			<p class="form-row text-gray-700">
-				<label id="contact-form-email-label" for="contact-form-email" class="form-label"
-					>Email address</label
-				>
-				<input
-					type="email"
-					name="email"
-					id="contact-form-email"
-					aria-labelledby="contact-form-email-label"
-					class="form-input"
-				/>
-			</p>
-			<br />
-			<p class="form-row text-gray-700">
+		
+				
+				
+
+		<form name="contact" netlify>
+  <p class=text-gray-700>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <br />
+  <p class=text-gray-700>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <br />
+  <p class="form-row text-gray-700">
 				<label id="contact-form-message-label" for="contact-form-message" class="form-label"
 					>Message</label
 				>
-
-				<textarea
+  <textarea
 					name="message"
 					id="contact-form-message"
 					aria-labelledby="contact-form-message-label"
 					class="form-textarea"
 					rows="2"
 				/>
-			</p>
-			<br />
-			<p class="form-row form-submit text-gray-700">
-				<button type="submit" class="button">Send Message</button>
-			</p>
-		</form>
+  <p class=text-gray-700>
+    <button type="submit">Send</button>
+  </p>
+</form>
 	</div>
 </section>
