@@ -1,2 +1,2 @@
 import "@sveltejs/kit/ssr";
-export { i as init, r as render } from "./chunks/app-00b6537f.js";
+export { i as init, r as render } from "./chunks/app-07663c9e.js";
