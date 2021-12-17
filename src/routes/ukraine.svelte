@@ -4,8 +4,8 @@
 	import Dnipropetrovsk from '../component/Ukraine/Dnipropetrovsk.svelte';
 	import Residents from '../component/Ukraine/Residents.svelte';
 	import Lost from '../component/Russian/Lost.svelte';
-		import Ukstate from '../component/Ukraine/Ukstate.svelte';
-
+	import Ukstate from '../component/Ukraine/Ukstate.svelte';
+	import Nineteen from '../component/Ukraine/Nineteen.svelte';
 </script>
 
 <svelte:head>
@@ -32,7 +32,8 @@
 		</div>
 
 		<div class="grid sm:flex gap-4 mt-8">
-		<Ukstate />
+			<Ukstate />
+			<Nineteen />
 		</div>
 	</section>
 </section>

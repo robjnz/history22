@@ -15,6 +15,7 @@
 	import Fifty from '../component/British/Fifty.svelte';
 	import Eighteenfiftyone99 from '../component/British/Eighteenfiftyone99.svelte';
 	import Gilroes99 from '../component/British/Gilroes99.svelte';
+	import Southend99 from '../component/British/Southend99.svelte';
 	import Scotland99 from '../component/British/Scotland99.svelte';
 	import Glasgow99 from '../component/British/Glasgow99.svelte';
 	import Adath from '../component/British/Cem/Adath.svelte';
@@ -72,14 +73,23 @@
 			<Eighteenfiftyone99 />
 		</div>
 
-		<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
+		<h3 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 			<div>Leicester Jewish Family History Resourses</div>
-		</h2>
+		</h3>
 		<br />
 		<div class="grid sm:flex gap-4 mt-8">
 			<Gilroes99 />
 		</div>
 
+		<br />
+		<h3 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
+			<div>Southend & Westcliff Jewish Family History Resourses</div>
+		</h3>
+		<br />
+		<div class="grid sm:flex gap-4 mt-8">
+			<Southend99 />
+		</div>
+		<br />
 		<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 			<div class="h-10 w-14 inline-block">
 				<img
@@ -101,7 +111,9 @@
 			<Glasgow99 />
 		</div>
 
-		<h2 class="ml-8 mt-3 text-center text-purple-500 text-font-sans text-4xl">London Jewish Cemeteries burial records</h2>
+		<h2 class="ml-8 mt-3 text-center text-purple-500 text-font-sans text-4xl">
+			London Jewish Cemeteries burial records
+		</h2>
 		<br />
 	</section>
 	<section class="two" />

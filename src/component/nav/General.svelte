@@ -33,7 +33,7 @@
 		</li>
 
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-			<a class="text-rose-500 hover:text-yellow-600" href="/contact">Contact's</a>
+			<a class="text-rose-500 hover:text-yellow-600" href="/contact">Contact</a>
 		</li>
 </ul>
 </div>
