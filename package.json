@@ -11,17 +11,18 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
-    "@sveltejs/adapter-netlify": "^1.0.0-next.30",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.36",
     "@sveltejs/kit": "next",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.1",
-    "svelte": "^3.44.1",
+    "svelte": "^3.44.3",
     "svelte-windicss-preprocess": "4.1.7"
   },
   "type": "module",
   "dependencies": {
     "@netlify/plugin-sitemap": "^0.8.1",
     "@sveltejs/adapter-vercel": "^1.0.0-next.31",
-    "daisyui": "^1.16.2"
+    "daisyui": "^1.16.2",
+    "netlify-cli": "^8.1.7"
   }
 }
