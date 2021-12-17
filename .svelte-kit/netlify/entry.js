@@ -19,32 +19,18 @@ export async function handler(event) {
 		rawBody
 	});
 
-	if (!rendered) {
+	if (rendered) {
 		return {
-			statusCode: 404,
-			body: 'Not found'
-		};
-	}
-
-	const partial_response = {
-		statusCode: rendered.status,
-		...split_headers(rendered.headers)
-	};
-
-	if (rendered.body instanceof Uint8Array) {
-		// Function responses should be strings (or undefined), and responses with binary
-		// content should be base64 encoded and set isBase64Encoded to true.
-		// https://github.com/netlify/functions/blob/main/src/function/response.ts
-		return {
-			...partial_response,
-			isBase64Encoded: true,
-			body: Buffer.from(rendered.body).toString('base64')
+			isBase64Encoded: false,
+			statusCode: rendered.status,
+			...splitHeaders(rendered.headers),
+			body: rendered.body
 		};
 	}
 
 	return {
-		...partial_response,
-		body: rendered.body
+		statusCode: 404,
+		body: 'Not found'
 	};
 }
 
@@ -56,7 +42,7 @@ export async function handler(event) {
  * multiValueHeaders: Record<string, string[]>
  * }}
  */
-function split_headers(headers) {
+function splitHeaders(headers) {
 	const h = {};
 	const m = {};
 	for (const key in headers) {
