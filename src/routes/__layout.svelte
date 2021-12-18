@@ -3,10 +3,9 @@
 	import '../global.css';
 	import TheFooter from '$lib/TheFooter.svelte';
 	import Dropdown from '../component/Dropdown.svelte';
-	import Googletag from '../component/Googletag.svelte';
 
 </script>
-<Googletag />
+
 <Nav />
 
 <slot />
