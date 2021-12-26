@@ -1,6 +1,6 @@
 <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
 	<div class="p-6">
-		<h1 class="text-2xl text-white">B.M.D</h1>
+		<h1 class="text-white text-2xl">B.M.D</h1>
 
 		<img
 			class="h-32 w-full object-fill"
@@ -9,8 +9,7 @@
 		/>
 		<br />
 		<p>
-			Free birth marriages<br /> and
-			death index<br /> from 1837 to 1992.
+			Free birth marriages<br /> and death index<br /> from 1837 to 1992.
 		</p>
 		<br />
 
