@@ -17,17 +17,25 @@
 	import Workhouse from '../component/British/Workhouse.svelte';
 	import Thirtynine from '../component/British/Thirtynine.svelte';
 	import Scotland from '../component/British/Scotland.svelte';
+	import Wandsworth from '../component/British/Wandsworth.svelte';
 </script>
 
 <svelte:head>
 	<title>British</title>
 	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NGM3N38');</script>
-<!-- End Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-NGM3N38');
+	</script>
+	<!-- End Google Tag Manager -->
 </svelte:head>
 <section class="one">
 	<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
@@ -72,19 +80,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 		<br />
 
-<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
-		<div class="h-10 w-14 inline-block">
-			<img
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"
-				alt="image of Scottish flag"
-			/>
-		</div>
+		<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
+			<div class="h-10 w-14 inline-block">
+				<img
+					src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"
+					alt="image of Scottish flag"
+				/>
+			</div>
 
-		Scottish Family History Resourses
-	</h2>
+			Scottish Family History Resourses
+		</h2>
 
 		<div class="grid sm:flex gap-4 mt-8">
 			<Scotland />
+		</div>
+
+		<h2 class="ml-8 mt-3 text-center text-purple-500 text-font-sans text-4xl">
+			London Cemeteries burial records
+		</h2>
+		<br />
+		<div class="grid sm:flex gap-4 mt-8">
+			<Wandsworth />
 		</div>
 	</section>
 </section>

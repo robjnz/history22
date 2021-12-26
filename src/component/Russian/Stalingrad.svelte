@@ -9,7 +9,8 @@
 		/>
 		<br />
 		<p>
-			Database of <br />military and civilians <br />who were at the<br /> battle of Stalingrad.<br />23 August 1942<br /> to 2 February 1943
+			Database of <br />military and civilians <br />who were at the<br /> battle of Stalingrad.<br
+			/>23 August 1942<br /> to 2 February 1943
 		</p>
 		<br />
 		<a class="text-white hover:text-yellow-500" href="https://bit.ly/3rJiGso" target="_blank">

@@ -1116,9 +1116,9 @@
     yargs "^15.3.0"
 
 "@netlify/config@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-17.0.0.tgz#29fd7a28d3ed77d8d3eea2fb66df8780f5077482"
-  integrity sha512-nm6Xls6Q4CGQlnckBNczdSY6jF/X7lCOZCfULyFE/mRivLqQ46eZOUXDIWYMWMrxNozjMiRfiSrMvlbm8ZV2LA==
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-17.0.1.tgz#69b4e9832129f566af59e2edfaf6041089edb535"
+  integrity sha512-3i1efAKWSww6enE0uzwovmKPX0q0mCLezW/R79gsCg+vyadkg0GdaFTN2Q7ASdYuUyQ8EolySE0rsLQTaYzm1A==
   dependencies:
     chalk "^4.1.2"
     cron-parser "^4.1.0"
@@ -1654,7 +1654,7 @@
 
 "@sveltejs/adapter-auto@next":
   version "1.0.0-next.4"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.4.tgz#c87a05f110cf23062953269423be8f7809d84da1"
+  resolved "https://registry.npmjs.org/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.4.tgz"
   integrity sha512-kfygrjF2uIgVVDsySl7I9oWSekU6adJCr/3qzLQDLM4FJ98FWmfhj4OOWsmF9X4JRPSm97t3RPugYsN3NLwKMQ==
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.3"
@@ -1663,14 +1663,14 @@
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.3":
   version "1.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.3.tgz#2c89eb9baba40e1ce63e85412571cbd4e3ded0f4"
+  resolved "https://registry.npmjs.org/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.3.tgz"
   integrity sha512-LauvvkBFCE8myGMLWOncv97/xU8JJn9OMl1miy8f/q8qs0CrduvR1sv2uCM9AylqT/FNPy3mony5wpe3w1v7sg==
   dependencies:
     esbuild "^0.13.15"
 
 "@sveltejs/adapter-netlify@1.0.0-next.36", "@sveltejs/adapter-netlify@^1.0.0-next.36":
   version "1.0.0-next.36"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.36.tgz#a1037f67940fce59c49aa64854843d428f55c49c"
+  resolved "https://registry.npmjs.org/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.36.tgz"
   integrity sha512-LdrIXCTBnIubtt/lthcnyt5VljuHpZlVzUqpWXk9Eu6bpNKblqQLMHkTBQfIbPfanmNSDZXJQVsdcFLqF2/+Cw==
   dependencies:
     "@iarna/toml" "^2.2.5"
@@ -1678,14 +1678,14 @@
 
 "@sveltejs/adapter-vercel@1.0.0-next.32", "@sveltejs/adapter-vercel@^1.0.0-next.31":
   version "1.0.0-next.32"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.32.tgz#90a8c1078a477a81d16cfd0efb27e5df2dc90189"
+  resolved "https://registry.npmjs.org/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.32.tgz"
   integrity sha512-ZcltaS5bAobGD5P0z7xJIjPHSlGpF7padMIkqTzJxwMEb/acGgdO5yzDS8XUEaSNgj+prpD2oG8+gm33ds8x0A==
   dependencies:
     esbuild "^0.13.15"
 
 "@sveltejs/kit@next":
   version "1.0.0-next.202"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.202.tgz#7438bc1b20c1acdd611588c3c1c1470959b2a251"
+  resolved "https://registry.npmjs.org/@sveltejs/kit/-/kit-1.0.0-next.202.tgz"
   integrity sha512-rXmJ0FplkWvD1CaeCfejRYhOJYrlmeUm5Fkw7gIKDdWPQev5rqOhd9B9ZvRpq35oMqCAwaOfK+e5S6k+83feEQ==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.30"
@@ -1941,6 +1941,11 @@
     node-pre-gyp "^0.13.0"
     resolve-from "^5.0.0"
     rollup-pluginutils "^2.8.2"
+
+"@windicss/plugin-question-mark@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-question-mark/-/plugin-question-mark-0.1.1.tgz#437de5bbd1e27432a4693def2fba2f1a335b8876"
+  integrity sha512-LTnySh28mFncJqCw7VjZzYD3HkJynjHQ8wAIgsZUPTi8WzDJtUeYyFc8/ImXGL/jon55zzg9yy9y/lUyCvvrmA==
 
 abbrev@1:
   version "1.1.1"
@@ -2599,9 +2604,9 @@ camelcase@^6.0.0, camelcase@^6.2.0:
   integrity sha512-tVI4q5jjFV5CavAU8DXfza/TJcZutVKo/5Foskmsqcm0MsL91moHvwiGNnqaa2o6PF/7yT5ikDRcVcl8Rj6LCA==
 
 caniuse-lite@^1.0.30001286:
-  version "1.0.30001287"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001287.tgz#5fab6a46ab9e47146d5dd35abfe47beaf8073c71"
-  integrity sha512-4udbs9bc0hfNrcje++AxBuc6PfLNHwh3PO9kbwnfCQWyqtlzg3py0YgFu8jyRTTo85VAz4U+VLxSlID09vNtWA==
+  version "1.0.30001289"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001289.tgz#d62a20175c4d9e740feda12a78b7c8df7866329e"
+  integrity sha512-hV6x4IfrYViN8cJbGFVbjD7KCrhS/O7wfDgvevYRanJ/IN+hhxpTcXXqaxy3CzPNFe5rlqdimdEB/k7H0YzxHg==
 
 chalk@^0.5.1:
   version "0.5.1"
@@ -3488,9 +3493,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.17:
-  version "1.4.23"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.23.tgz#c8fa28db6354062bbd388e24d95c4a263fff5cac"
-  integrity sha512-q3tB59Api3+DMbLnDPkW/UBHBO7KTGcF+rDCeb0GAGyqFj562s6y+c/2tDKTS/y5lbC+JOvT4MSUALJLPqlcSA==
+  version "1.4.24"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.24.tgz#9cf8a92d5729c480ee47ff0aa5555f57467ae2fa"
+  integrity sha512-erwx5r69B/WFfFuF2jcNN0817BfDBdC4765kQ6WltOMuwsimlQo3JTEq0Cle+wpHralwdeX3OfAtw/mHxPK0Wg==
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -4200,7 +4205,7 @@ fs.realpath@^1.0.0:
 
 fsevents@~2.3.2:
   version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 function-bind@^1.1.1:
@@ -5913,9 +5918,9 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
 netlify-cli@^8.1.7:
-  version "8.1.7"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-8.1.7.tgz#c61ed113c9188ac5da94ab32fe3bd7bcd1339af1"
-  integrity sha512-9orGqYERmuAKC5B/e1EqhS6hufKpSECT6BqLH0jkilNo8wpa6Zojdf+gP1oh+Ho8QlXFDLyLLzCoWqVVyGb7rQ==
+  version "8.1.8"
+  resolved "https://registry.npmjs.org/netlify-cli/-/netlify-cli-8.1.8.tgz"
+  integrity sha512-BRrzaQNymNyohtqAcOCR9NKqw1uCD8q3cc34kmGGIBYvDpryzPnHhEbg+C/aLkwZEDYRIh/9AFEIpRWZF3GZgQ==
   dependencies:
     "@netlify/build" "^20.3.1"
     "@netlify/config" "^17.0.0"
@@ -6255,9 +6260,9 @@ object-copy@^0.1.0:
     kind-of "^3.0.3"
 
 object-inspect@^1.9.0:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.11.1.tgz#d4bd7d7de54b9a75599f59a00bd698c1f1c6549b"
-  integrity sha512-If7BjFlpkzzBeV1cqgT3OSWT3azyoxDGajR+iGnFBfVV2EWyDyWaZZW2ERDjUaY2QM8i5jI3Sj7mhsM4DDAqWA==
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.0.tgz#6e2c120e868fd1fd18cb4f18c31741d0d6e776f0"
+  integrity sha512-Ho2z80bVIvJloH+YzRmpZVQe87+qASmBUKZDWgx9cu+KDrX2ZDH/3tMy+gXbZETVGs2M8YdxObOh7XAtim9Y0g==
 
 object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
@@ -6708,9 +6713,9 @@ postcss@^8.1.7, postcss@^8.3.11:
     source-map-js "^1.0.1"
 
 precinct@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/precinct/-/precinct-8.2.0.tgz#fb24ab42e51b84f2706b2bb81bb4814cdaf560c7"
-  integrity sha512-D9fQM/fAS7rGLA1m+PusoEMc07g9I5lZUf6rstT5XPCPn56raSIrj9R9y052YV8j4N+tjkgfCgT10bRQ3vg8+A==
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/precinct/-/precinct-8.3.0.tgz#7b1a4c90d8e6fb202f56dc60225dd4d40ad94333"
+  integrity sha512-+NPlVGgm+SVfQeClQQt9q4L7Aq7Lym2EhoLU8Ocs1T131hLJ0LAOMigHILSf5kVH2/rym5c80bUdBPkZ1HPKFA==
   dependencies:
     commander "^2.20.3"
     debug "^4.3.1"
@@ -7787,7 +7792,7 @@ svelte-windicss-preprocess@4.1.7:
 
 svelte@^3.44.3:
   version "3.44.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.3.tgz#795b1ced6ed3da44969099e5061b850c93c95e9a"
+  resolved "https://registry.npmjs.org/svelte/-/svelte-3.44.3.tgz"
   integrity sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==
 
 symbol-observable@^1.1.0:
@@ -8304,9 +8309,9 @@ vary@~1.1.2:
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
 vite@^2.7.2:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.3.tgz#e983cf4f71f42c192436bfcad1b75932642da293"
-  integrity sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==
+  version "2.7.2"
+  resolved "https://registry.npmjs.org/vite/-/vite-2.7.2.tgz"
+  integrity sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==
   dependencies:
     esbuild "^0.13.12"
     postcss "^8.3.11"
