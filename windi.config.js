@@ -875,6 +875,7 @@ module.exports = {
     require('windicss/plugin/typography'),
     require('@windicss/plugin-question-mark'),
     require('windicss/plugin/aspect-ratio'),
+    require('@windicss/plugin-animations'),
     
     transform('daisyui'),
     

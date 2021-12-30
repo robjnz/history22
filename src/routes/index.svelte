@@ -33,6 +33,7 @@
 		<div>
 			<img class="h-96 w-full object-fill p-4" src="/images/logotreerobin.svg" alt="logo" />
 		</div>
+
 		<div>
 			<ul class="text-left text-gray-600 text-font-sans text-xl p-4">
 				<li>Births records</li>
