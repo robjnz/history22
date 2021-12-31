@@ -31,7 +31,7 @@
 
 	<div class="sm:grid cols-1 md:grid grid-cols-2 gap-4">
 		<div>
-			<img class="h-96 w-full object-fill p-4" src="/images/logotreerobin.svg" alt="logo" />
+			<img class="h-96 w-full object-fill p-4" src="/tree.svg" alt="logo" />
 		</div>
 
 		<div>
