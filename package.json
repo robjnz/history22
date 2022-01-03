@@ -26,6 +26,6 @@
     "@sveltejs/adapter-vercel": "^1.0.0-next.31",
     "@windicss/config": "^1.6.1",
     "daisyui": "^1.16.2",
-    "netlify-cli": "^8.4.2"
+    "netlify-cli": "^8.6.0"
   }
 }

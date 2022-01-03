@@ -1,6 +1,6 @@
 <footer class="text-left bg-teal-500 p-4 mt-16">
 	<div class="inline-flex">
-		<h3 class="text-left text-gray-700 text-xl">© 2021 Family History</h3>
+		<h3 class="text-left text-gray-700 text-xl">© 2022 Family History</h3>
 
 		<a href="http://bit.ly/3nS0tUP" target="_blank">
 			<img
